@@ -7,9 +7,8 @@
 }
 
 body {
-    /* rgba(17, 176, 255, 0.81)*/
-    background: linear-gradient(to right, #667eea, #424fc1);
-    color: #ffffff;
+    background: #f5f5f7;
+    color: #2c3e50;
     line-height: 1.4;
     padding: 0 2rem;
 }
@@ -55,13 +54,13 @@ nav {
     left: 0;
     width: 100%;
     z-index: 1000;
-    background-color: #1e3c72; /* match your navbar bg */
+    background-color: #1a3a52;
     transition: all 0.3s ease-in-out;
 }
 
 nav.scrolled {
-    background-color: #4e57a6;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: #2c5aa0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .nav-left h1 {
@@ -93,17 +92,17 @@ nav.scrolled {
 .nav-links a:hover {
     color: #ffffff;
     transform: scale(1.1);
-    background-color: #2575fc;
+    background-color: #3498db;
 }
 
 .nav-links a.active {
     color: #ffffff;
-    background-color: #6a11cb;
+    background-color: #3498db;
 }
 
 /* Hero Section */
 #hero {
-    background: linear-gradient(to right, #6786ef, #424fc1);
+    background: linear-gradient(135deg, #1a3a52, #2c5aa0);
     color: #ffffff;
     height: 100vh;
     display: flex;
@@ -146,7 +145,7 @@ nav.scrolled {
 .btn-primary {
     padding: 0.8rem 2rem;
     background: #ffffff;
-    color: #2575fc;
+    color: #1a3a52;
     font-weight: bold;
     text-decoration: none;
     border-radius: 5px;
@@ -154,14 +153,14 @@ nav.scrolled {
 }
 
 .btn-primary:hover {
-    background: #d0d4f7;
+    background: #3498db;
     color: #fff;
 }
 
 /* About Section */
 #about {
-    background: #4a7fd1;
-    color: #333;
+    background: #ffffff;
+    color: #2c3e50;
     padding: 4rem 2rem;
     display: flex;
     justify-content: center;
@@ -198,23 +197,23 @@ nav.scrolled {
 .about h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #4e57a6;
+    color: #1a3a52;
 }
 
 .about p {
     font-size: 1.2rem;
     line-height: 1.6;
     margin-bottom: 1.5rem;
-    color: #555;
+    color: #2c3e50;
 }
 
 .about p strong {
-    color: #2575fc;
+    color: #2c5aa0;
 }
 
 /* Skills Section */
 #skills {
-    background: #eaf0ff;
+    background: #f5f5f7;
     padding: 4rem 2rem;
     text-align: center;
 }
@@ -226,7 +225,7 @@ nav.scrolled {
 
 .skills-container h2 {
     font-size: 2.5rem;
-    color: #4e57a6;
+    color: #1a3a52;
     margin-bottom: 2rem;
 }
 
@@ -250,13 +249,13 @@ nav.scrolled {
 
 .skill p {
     font-weight: bold;
-    color: #333;
+    color: #2c3e50;
     margin-bottom: 0.5rem;
 }
 
 .progress-bar {
     width: 100%;
-    background-color: #d9e0ef;
+    background-color: #dfe6e9;
     height: 10px;
     border-radius: 5px;
     overflow: hidden;
@@ -265,14 +264,14 @@ nav.scrolled {
 .progress {
     height: 100%;
     width: 0;
-    background: linear-gradient(to right, #6a11cb, #2575fc);
+    background: linear-gradient(to right, #2c5aa0, #3498db);
     transition: width 2s ease-in-out;
 }
 
 /* Education Section */
 .education-section {
     padding: 4rem 2rem;
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    background: linear-gradient(135deg, #1a3a52, #2c5aa0);
     color: #ffffff;
     text-align: center;
 }
@@ -280,7 +279,7 @@ nav.scrolled {
 .education-section h2 {
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: #e0e0ff;
+    color: #e8f4f8;
 }
 
 .education-content {
@@ -323,7 +322,7 @@ nav.scrolled {
 
 .btn-download {
     padding: 0.8rem 1.6rem;
-    background-color: #7e57c2;
+    background-color: #3498db;
     color: #fff;
     border-radius: 10px;
     font-weight: 500;
@@ -332,7 +331,7 @@ nav.scrolled {
 }
 
 .btn-download:hover {
-    background-color: #5e35b1;
+    background-color: #2980b9;
 }
 
 /* For larger screens */
@@ -358,15 +357,15 @@ nav.scrolled {
 /* Interests Section */
 .interests-section {
     padding: 4rem 2rem;
-    background: linear-gradient(to bottom, #2a3a6e, #4e3e8c);
-    color: #ffffff;
+    background: #ffffff;
+    color: #2c3e50;
     text-align: center;
 }
 
 .interests-section h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    color: #e0e0ff;
+    color: #1a3a52;
 }
 
 .interests-container {
@@ -378,10 +377,11 @@ nav.scrolled {
 }
 
 .interest {
-    background: rgba(255, 255, 255, 0.05);
+    background: #f5f5f7;
     padding: 1.5rem;
     border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    border-left: 4px solid #3498db;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 
@@ -391,13 +391,13 @@ nav.scrolled {
 
 .interest h3 {
     font-size: 1.5rem;
-    color: #bbdefb;
+    color: #2c5aa0;
     margin-bottom: 0.8rem;
 }
 
 .interest p {
     font-size: 1.1rem;
-    color: #d1c4e9;
+    color: #555;
 }
 
 @media (min-width: 768px) {
@@ -410,7 +410,7 @@ nav.scrolled {
 /* Projects Section */
 .projects-section {
     padding: 4rem 2rem;
-    background: linear-gradient(to right, #1e2a78, #3e4ba0);
+    background: linear-gradient(135deg, #1a3a52, #2c5aa0);
     color: #ffffff;
     text-align: center;
 }
@@ -418,7 +418,7 @@ nav.scrolled {
 .projects-section h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    color: #e3f2fd;
+    color: #e8f4f8;
 }
 
 .projects-container {
@@ -430,7 +430,7 @@ nav.scrolled {
 }
 
 .project-card {
-    background: rgba(255, 255, 255, 0.07);
+    background: rgba(255, 255, 255, 0.1);
     padding: 2rem;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
@@ -452,7 +452,7 @@ nav.scrolled {
 }
 
 .project-card a {
-    color: #80d8ff;
+    color: #a8d8ff;
     text-decoration: none;
     margin-right: 1rem;
     transition: color 0.3s ease;
@@ -477,8 +477,8 @@ nav.scrolled {
 
 /* Contact Section */
 .contact-section {
-    background: linear-gradient(to right, #283593, #512da8);
-    color: #fff;
+    background: #f5f5f7;
+    color: #2c3e50;
     padding: 4rem 2rem;
     text-align: center;
 }
@@ -486,12 +486,12 @@ nav.scrolled {
 .contact-section h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #e3f2fd;
+    color: #1a3a52;
 }
 
 .contact-section p {
     margin-bottom: 2rem;
-    color: #c5cae9;
+    color: #555;
     font-size: 1.1rem;
 }
 
@@ -512,7 +512,7 @@ nav.scrolled {
 }
 
 .contact-form button {
-    background-color: #7e57c2;
+    background-color: #2c5aa0;
     color: #fff;
     padding: 1rem;
     border: none;
@@ -523,7 +523,7 @@ nav.scrolled {
 }
 
 .contact-form button:hover {
-    background-color: #9575cd;
+    background-color: #3498db;
 }
 
 
@@ -578,20 +578,20 @@ form {
 
 input, textarea {
     padding: 0.8rem;
-    border: none;
+    border: 1px solid #dfe6e9;
     border-radius: 8px;
-    background-color: #2e2b4f;
-    color: white;
+    background-color: #ffffff;
+    color: #2c3e50;
 }
 
 input::placeholder,
 textarea::placeholder {
-    color: #bfb9d6;
+    color: #bdc3c7;
 }
 
 button {
     padding: 0.8rem;
-    background: linear-gradient(to right, #5f72bd, #9b23ea);
+    background: linear-gradient(to right, #2c5aa0, #3498db);
     border: none;
     border-radius: 8px;
     color: white;
@@ -606,7 +606,7 @@ button:hover {
 
 /* Footer Section */
 .footer {
-    background-color: #2a3a6e;
+    background-color: #1a3a52;
     color: #ffffff;
     padding: 2rem;
     text-align: center;
