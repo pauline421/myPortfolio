@@ -125,7 +125,7 @@ nav.scrolled {
 
 /* Hero Section */
 #hero {
-    background: linear-gradient(135deg, #1a3a52 0%, #2c5aa0 100%);
+    background: linear-gradient(135deg, #52a1dd 0%, #2c5aa0 100%);
     color: #ffffff;
     height: 100vh;
     display: flex;
@@ -716,7 +716,7 @@ button:hover {
 
 /* Footer Section */
 .footer {
-    background-color: #1a3a52;
+    background-color: #599dd1;
     color: #ffffff;
     padding: 3rem 2rem;
     text-align: center;
